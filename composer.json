@@ -1,0 +1,22 @@
+{
+  "name": "httpsnader/code-booster",
+  "description": "Mohamed Nader Code Booster For Laravel & VueJS & Inertia",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "CodeBooster\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "CodeBooster\\CodeBoosterServiceProvider"
+      ]
+    }
+  },
+  "require": {
+    "php": ">=8.0",
+    "illuminate/support": "^10.0"
+  }
+}
